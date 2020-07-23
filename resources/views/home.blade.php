@@ -15,6 +15,9 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    @role('admin')
+                    <h1>this is admin</h1>
+                    @endrole
                 </div>
             </div>
         </div>
